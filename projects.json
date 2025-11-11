@@ -1,0 +1,94 @@
+[
+  {
+    "title": "ODESA \u2013 Online Voice-Based AI Interview Platform",
+    "stack": [
+      "Next.js",
+      "React",
+      "Socket.io",
+      "Tailwind",
+      "OpenAI",
+      "Node.js"
+    ],
+    "category": "Web / AI",
+    "highlights": [
+      "Voice-based Q&A with AI scoring and live feedback",
+      "Real-time speech recognition; async APIs ~30% faster response"
+    ],
+    "link": "",
+    "github": "",
+    "year": 2025
+  },
+  {
+    "title": "College Placement Tracker \u2013 AI Insights Dashboard",
+    "stack": [
+      "Streamlit",
+      "Python",
+      "Pandas",
+      "Web Scraping",
+      "OpenAI"
+    ],
+    "category": "Data / Dashboard",
+    "highlights": [
+      "Scraped placement data and generated insights",
+      "AI summaries of hiring trends; auto-generated reports"
+    ],
+    "link": "",
+    "github": "",
+    "year": 2025
+  },
+  {
+    "title": "AI-Powered Stock Market Dashboard",
+    "stack": [
+      "React",
+      "Flask",
+      "Python",
+      "yFinance",
+      "LSTM",
+      "Pandas"
+    ],
+    "category": "ML / Finance",
+    "highlights": [
+      "Real-time visualization with predictive modeling",
+      "Sentiment-based insights and KPI tracking"
+    ],
+    "link": "",
+    "github": "",
+    "year": 2024
+  },
+  {
+    "title": "RFID-Based Solar Highway Toll and Access System",
+    "stack": [
+      "Arduino",
+      "RFID",
+      "Solar",
+      "DC\u2013DC Boost",
+      "IoT Dashboard"
+    ],
+    "category": "IoT / Power Electronics",
+    "highlights": [
+      "Solar-integrated smart toll collection with auto gate control",
+      "Real-time vehicle logging; power efficiency tests"
+    ],
+    "link": "",
+    "github": "",
+    "year": 2024
+  },
+  {
+    "title": "Regenerative Braking Energy Recovery with Supercapacitors",
+    "stack": [
+      "BLDC",
+      "Supercapacitor",
+      "Buck\u2013Boost",
+      "Thermal Sensor",
+      "MATLAB/Simulink"
+    ],
+    "category": "EV Systems",
+    "highlights": [
+      "Prototype to recover/store kinetic energy",
+      "Thermal monitoring and energy flow control"
+    ],
+    "link": "",
+    "github": "",
+    "year": 2024
+  }
+]

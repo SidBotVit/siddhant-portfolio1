@@ -1,0 +1,72 @@
+
+:root {
+  --bg: #0b0e14;
+  --text: #e6e6e6;
+  --muted: #9aa4b2;
+  --primary: #7c3aed;
+  --card: #10141f;
+  --glass: rgba(255,255,255,0.06);
+  --accent: #22d3ee;
+}
+.light-theme {
+  --bg: #ffffff;
+  --text: #0b0e14;
+  --muted: #4b5563;
+  --primary: #7c3aed;
+  --card: #f8fafc;
+  --glass: rgba(0,0,0,0.06);
+  --accent: #0ea5e9;
+}
+.main, .stApp {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+.card {
+  background: linear-gradient(180deg, var(--glass), transparent);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 10px 32px rgba(0,0,0,0.25);
+}
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.08);
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.hero {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  padding: 24px;
+  background: radial-gradient(1200px 400px at 10% -10%, rgba(124,58,237,0.25), transparent),
+              radial-gradient(900px 300px at 110% 10%, rgba(34,211,238,0.25), transparent),
+              linear-gradient(180deg, var(--card), transparent);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.hero h1 { font-size: 42px; line-height: 1.1; margin-bottom: 6px; }
+.hero p { color: var(--muted); font-size: 16px; }
+.link-btn {
+  display:inline-flex; align-items:center; gap:8px;
+  padding:10px 14px; border-radius:12px;
+  border:1px solid rgba(255,255,255,0.1);
+  background: var(--card);
+  text-decoration:none; color: var(--text);
+}
+.small { font-size: 13px; color: var(--muted); }
+.section-title { font-size: 24px; margin: 8px 0 6px 0; }
+.footer { color: var(--muted); font-size: 13px; text-align:center; padding: 14px 0 24px; }
+.pdf-frame {
+  width: 100%; height: 680px; border: 0; border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+}
